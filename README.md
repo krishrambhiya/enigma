@@ -1,4 +1,6 @@
 # enigma
-Coded a simulator of the Enigma encryption machine used in World War II
+This project entails the development of a simulator for the Enigma encryption machine that was used during World War II. The simulator is designed to take in initial machine configurations as well as messages to encode or decode. The simulator is implemented in Java and consists of several classes, including Main, Machine, Rotor, FixedRotor, MovingRotor, Reflector, Permutation, and EnigmaException. Additionally, the project includes several test classes, including MovingRotorTest, PermutationTest, TestUtils, and UnitTest.
 
-Designed the simulator to take in initial machine configurations and messages to encode or decode
+The simulator was developed to accurately replicate the functions of the Enigma machine, a complex electro-mechanical device that was used by the German military to encrypt and decrypt messages during World War II. The project uses object-oriented programming techniques to create a modular, extensible, and efficient simulation of the machine. The simulator also includes the ability to vary the initial settings of the machine, such as the rotor positions and plugboard connections, which can dramatically alter the encryption process.
+
+The simulator was developed with the goal of accurately replicating the Enigma machine's encryption and decryption capabilities, while also being flexible and extensible enough to allow for additional features and improvements to be added in the future. The project is available on GitHub and is open source, allowing anyone to download and use the simulator for educational or research purposes. The code is written in Java, making it easily accessible to anyone with a basic understanding of object-oriented programming.
